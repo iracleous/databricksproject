@@ -1,0 +1,16 @@
+[project]
+name = "retail-etl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "azure-identity>=1.25.3",
+    "azure-storage-file-datalake>=12.24.0",
+    "databricks-connect>=16.1.7",
+    "databricks-sdk>=0.112.0",
+    "pandas>=2.3.3",
+    "pyarrow>=24.0.0",
+    "pyspark>=4.1.2",
+    "pytest>=9.0.3",
+]
